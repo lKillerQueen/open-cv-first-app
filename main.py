@@ -3,7 +3,7 @@ import cv2
 
 
 def face_capture():
-    puth = 'C:/Users/User/Desktop/VkBot/haarcascade_frontalface_default.xml'
+    puth = './haarcascade_frontalface_default.xml'
     clf = cv2.CascadeClassifier(puth)
     camera = cv2.VideoCapture(1)
 
